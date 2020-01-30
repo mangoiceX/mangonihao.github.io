@@ -59,9 +59,4 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
         <tag>Linux</tag>
       </tags>
   </entry>
-  <entry>
-    <title>about</title>
-    <url>/about/index.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-  </entry>
 </search>
