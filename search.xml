@@ -1,58 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/01/29/hello-world/"/>
-      <url>/2020/01/29/hello-world/</url>
-      
-        <content type="html"><![CDATA[<html><head></head><body>Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).## Quick Start### Create a new post<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure></div>More info: [Writing](https://hexo.io/docs/writing.html)### Run server<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure></div>More info: [Server](https://hexo.io/docs/server.html)### Generate static files<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure></div>More info: [Generating](https://hexo.io/docs/generating.html)### Deploy to remote sites<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure></div>More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)</body></html>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>WSL Ubuntu18.04折腾记录-跑通ubuntu多线程c程序</title>
-      <link href="/2020/01/29/test1/"/>
-      <url>/2020/01/29/test1/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>前半部分参考的是：<a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a></p><p>1，以管理员身份打开powershell.执行如下命令，执行完如下命令后，需要重启操作系统。<br>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</p><a id="more"></a><p>2.去微软应用商店下载需要的Linux发行版。<br>3.下载完成后直接双击安装即可。<br>（4.安装完成后，在开始菜单中即可找到自己安装的Linux发行版。在这里，每一个Linux发行版都是一个windows 应用。）<br>后面就是自己的摸索过程。<br>1，首先是跟换国内源，我选择的是阿里云。<br>参考的是下面这个教程：<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a><br>这个教程里面有几句话比较关键（我最后就是栽了跟头）。</p><blockquote><p>我们可以看到新版本的Ubuntu系统代号为bionic</p></blockquote><p>同样的我们也可以得到之前任意版本的系统代号：</p><p>Ubuntu 12.04 (LTS)代号为precise。</p><p>Ubuntu 14.04 (LTS)代号为trusty。</p><p>Ubuntu 15.04 代号为vivid。</p><p>Ubuntu 15.10 代号为wily。</p><p>Ubuntu 16.04 (LTS)代号为xenial。</p><p>所以这也就解释了为什么我们百度出来的那么多方案里面内容不尽相同的原因，因为他们更改apt安装源时用的系统不一样。<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">原文链接</a></p><p>血泪史：我之前以为与版本无关，所以用的是16.04的清华源，我看到这个教程幡然醒悟。<br>2，然后，安装gcc,g++,gdb.<br>然后要sudo apt-get install build-essential，这个命令，作用是提供编译程序必须软件包的列表信息。<br>3，VS Code里面相应的配置：<a href="https://blog.csdn.net/WChQGouge/article/details/95445857" target="_blank" rel="noopener">参考链接</a><br>然后，在VS Code下载remote wsl,然后打开相应的文件（ubuntu文件夹在windows的位置，可以bing或百度，也可以打开windows下的文件）。<br>然后配置VS Code的wsl的命令窗口，需要更改配置文件。文件如何打开？<br>点下面的“选择默认Shell”，然后就会自动打开。<br><img src="https://img-blog.csdnimg.cn/20200115211850360.png" alt="在这里插入图片描述"><br>这里是配置更改，把原来的cmd.exe直接改为wsl.exe.<br><img src="https://img-blog.csdnimg.cn/20200115211825837.png" alt="在这里插入图片描述"><br>然后再在VS Code的命令窗口输入相应的编译命令，发现sys/msg.h头文件不存在，也就是Unix系统下的头文件，找不到。最后头文件是在里面，但是没有链接。所以要建立来链接。<br>32位系统：/usr/incude/i386-linux-gnu/sys<br>64位系统：/usr/include/x86_64-linux-gnu/sys/</p><p>用法：    ln -s 源文件 目标文件<br>32位系统：sudo ln -s /usr/incude/i386-linux-gnu/sys /usr/include/<br>64位系统：sudo ln -s /usr/include/x86_64-linux-gnu/sys/ /usr/include/<br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">参考链接</a><br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">https://blog.csdn.net/Q1410136042/article/details/84063098</a><br>然后问题就解决了。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/01/29/hello-world/</url>
+    <content><![CDATA[<html><head></head><body>Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+## Quick Start
+
+### Create a new post
+
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure></div>
+
+More info: [Writing](https://hexo.io/docs/writing.html)
+
+### Run server
+
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure></div>
+
+More info: [Server](https://hexo.io/docs/server.html)
+
+### Generate static files
+
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure></div>
+
+More info: [Generating](https://hexo.io/docs/generating.html)
+
+### Deploy to remote sites
+
+<div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure></div>
+
+More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+</body></html>]]></content>
+  </entry>
+  <entry>
+    <title>WSL Ubuntu18.04折腾记录-跑通ubuntu多线程c程序</title>
+    <url>/2020/01/29/test1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>前半部分参考的是：<a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a></p>
+<p>1，以管理员身份打开powershell.执行如下命令，执行完如下命令后，需要重启操作系统。<br>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</p>
+<a id="more"></a>
+<p>2.去微软应用商店下载需要的Linux发行版。<br>3.下载完成后直接双击安装即可。<br>（4.安装完成后，在开始菜单中即可找到自己安装的Linux发行版。在这里，每一个Linux发行版都是一个windows 应用。）<br>后面就是自己的摸索过程。<br>1，首先是跟换国内源，我选择的是阿里云。<br>参考的是下面这个教程：<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a><br>这个教程里面有几句话比较关键（我最后就是栽了跟头）。</p>
+<blockquote>
+<p>我们可以看到新版本的Ubuntu系统代号为bionic</p>
+</blockquote>
+<p>同样的我们也可以得到之前任意版本的系统代号：</p>
+<p>Ubuntu 12.04 (LTS)代号为precise。</p>
+<p>Ubuntu 14.04 (LTS)代号为trusty。</p>
+<p>Ubuntu 15.04 代号为vivid。</p>
+<p>Ubuntu 15.10 代号为wily。</p>
+<p>Ubuntu 16.04 (LTS)代号为xenial。</p>
+<p>所以这也就解释了为什么我们百度出来的那么多方案里面内容不尽相同的原因，因为他们更改apt安装源时用的系统不一样。<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">原文链接</a></p>
+<p>血泪史：我之前以为与版本无关，所以用的是16.04的清华源，我看到这个教程幡然醒悟。<br>2，然后，安装gcc,g++,gdb.<br>然后要sudo apt-get install build-essential，这个命令，作用是提供编译程序必须软件包的列表信息。<br>3，VS Code里面相应的配置：<a href="https://blog.csdn.net/WChQGouge/article/details/95445857" target="_blank" rel="noopener">参考链接</a><br>然后，在VS Code下载remote wsl,然后打开相应的文件（ubuntu文件夹在windows的位置，可以bing或百度，也可以打开windows下的文件）。<br>然后配置VS Code的wsl的命令窗口，需要更改配置文件。文件如何打开？<br>点下面的“选择默认Shell”，然后就会自动打开。<br><img src="https://img-blog.csdnimg.cn/20200115211850360.png" alt="在这里插入图片描述"><br>这里是配置更改，把原来的cmd.exe直接改为wsl.exe.<br><img src="https://img-blog.csdnimg.cn/20200115211825837.png" alt="在这里插入图片描述"><br>然后再在VS Code的命令窗口输入相应的编译命令，发现sys/msg.h头文件不存在，也就是Unix系统下的头文件，找不到。最后头文件是在里面，但是没有链接。所以要建立来链接。<br>32位系统：/usr/incude/i386-linux-gnu/sys<br>64位系统：/usr/include/x86_64-linux-gnu/sys/</p>
+<p>用法：    ln -s 源文件 目标文件<br>32位系统：sudo ln -s /usr/incude/i386-linux-gnu/sys /usr/include/<br>64位系统：sudo ln -s /usr/include/x86_64-linux-gnu/sys/ /usr/include/<br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">参考链接</a><br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">https://blog.csdn.net/Q1410136042/article/details/84063098</a><br>然后问题就解决了。</p>
+]]></content>
       <categories>
-          
-          <category> Linux </category>
-          
+        <category>Linux</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
-    
-    
-    <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-  
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>about</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
 </search>
