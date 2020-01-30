@@ -94,4 +94,9 @@ https://blog.csdn.net/Q1410136042/article/details/84063098
         <tag>Linux</tag>
       </tags>
   </entry>
+  <entry>
+    <title>about</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
 </search>
