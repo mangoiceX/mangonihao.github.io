@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo_next0</title>
-    <url>/2020/01/31/hexo_next0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>title: Hexo和Next主题折腾录</p>
-<p>author: XMH</p>
-<p>id: 2</p>
-<p>tags:</p>
-<p>- 运维，Hexo</p>
-<p>categories:</p>
-<p>- 运维</p>
-<p>date: 2020-1-31</p>
-<p>-–</p>
-<p>&emsp;  最近两天突发奇想，因为现在瘟疫流行，没有办法出去，所以就找点事做。之前看到了很多人个性化的网站，所以也想自己搭建一个网站。</p>
-<a id="more"></a>
-
-<p>​      我不会写具体教程，因为其他人的教程有些写的已经很好了，所以没必要重复，所以讲些关键点和遇到的坑。</p>
-<p>别看教程很短（因为基本就相当传送门），但是都是试错试出来的，不容易。</p>
-<!--more-->
-
-<h3 id="坑点："><a href="#坑点：" class="headerlink" title="坑点："></a><strong>坑点：</strong></h3><ol>
-<li>之前我采用的是butterfly主题，按照网上的教程弄了很久的本地搜索还是失败，结果发现网上的教程大都是针对next主题的，因为next主题已经集成了搜索，所以可以简单的配置，但是有些主题需要自己实现。</li>
-</ol>
-<h3 id="具体的配置过程："><a href="#具体的配置过程：" class="headerlink" title="具体的配置过程："></a><strong>具体的配置过程</strong>：</h3><ol>
-<li><p>hexo + github部署：</p>
-<p>主要参考下面网址的<a href="https://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">教程</a></p>
-</li>
-</ol>
-<ol start="2">
-<li><p>next主题的安装：</p>
-<p>我安装的是最新的next7主题，因为next6之前的主题都已经停止维护了。next7主题的安装，见<a href="https://blog.csdn.net/weixin_39345384/article/details/80785373" target="_blank" rel="noopener">教程</a> 上面的教程也可以美化主题。</p>
-</li>
-</ol>
-<p>&nbsp;  3. 主题的美化：</p>
-<pre><code>我主要参考[教程](https://blog.csdn.net/nightmare_dimple/article/details/86661502),教程讲解的很详细，虽然不是针对next7主题的，但大部分都是适用的。</code></pre>]]></content>
-  </entry>
-  <entry>
     <title>Hexo和Next主题折腾录</title>
     <url>/2020/01/31/hexo_next/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;&emsp;最近两天突发奇想，因为现在瘟疫流行，没有办法出去，所以就找点事做。之前看到了很多人个性化的网站，所以也想自己搭建一个网站。<br>&emsp;&emsp;我不会写具体教程，因为其他人的教程有些写的已经很好了，所以没必要重复，所以讲些关键点和遇到的坑。别看教程很短（因为基本就相当传送门），但是都是试错试出来的，不容易。</p>
