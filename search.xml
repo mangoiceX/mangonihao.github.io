@@ -23,6 +23,8 @@
 </li>
 <li><p>创建About,Tags这些初始页面<br><a href="https://www.jianshu.com/p/60f5c84aa5a8" target="_blank" rel="noopener">参考教程</a></p>
 </li>
+<li><p>添加2D人物<br><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">参考教程</a><br>其中的配置代码放在站点的配置文件，而不是主题的配置文件。</p>
+</li>
 </ol>
 ]]></content>
       <categories>
