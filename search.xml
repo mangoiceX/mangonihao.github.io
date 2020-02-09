@@ -1,116 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Hexo和Next主题折腾录</title>
-      <link href="/2020/01/31/hexo_next/"/>
-      <url>/2020/01/31/hexo_next/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;&emsp;最近两天突发奇想，因为现在瘟疫流行，没有办法出去，所以就找点事做。之前看到了很多人个性化的网站，所以也想自己搭建一个网站。<br>&emsp;&emsp;我不会写具体教程，因为其他人的教程有些写的已经很好了，所以没必要重复，所以讲些关键点和遇到的坑。别看教程很短（因为基本就相当传送门），但是都是试错试出来的，不容易。</p><a id="more"></a><p>注意：文字下面有下划线的就是超链接。<br><strong>坑点</strong>：</p><ol><li>之前我采用的是butterfly主题，按照网上的教程弄了很久的本地搜索还是失败，结果发现网上的教程大都是针对next主题的，因为next主题已经集成了搜索，所以可以简单的配置，但是有些主题需要自己实现。</li></ol><p><strong>具体配置教程</strong>：</p><ol><li><p>hexo + github部署<br>主要参考下面网址的<a href="https://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">教程</a><br>&nbsp;</p></li><li><p>next主题的安装<br>我安装的是最新的next7主题，因为next6之前的主题都已经停止维护了。<br>next7主题的安装，见<a href="https://blog.csdn.net/weixin_39345384/article/details/80785373" target="_blank" rel="noopener">教程</a><br>上面的教程也可以美化主题。<br>&nbsp;</p></li><li><p>主题的美化<br>主要参考<a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">教程</a>,教程讲解的很详细，虽然不是针对next7主题的，但大部分都是适用的。</p></li><li><p>域名的配置<br><a href="https://blog.csdn.net/Wonz5130/article/details/82828761" target="_blank" rel="noopener">参考教程</a></p></li><li><p>leancloud的配置(现在还有些问题)<br><a href="https://lfwen.site/2016/05/31/add-count-for-hexo-next/" target="_blank" rel="noopener">参考教程</a></p></li><li><p>创建About,Tags这些初始页面<br><a href="https://www.jianshu.com/p/60f5c84aa5a8" target="_blank" rel="noopener">参考教程</a></p></li><li><p>添加2D人物<br><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">参考教程</a><br>其中的配置代码放在站点的配置文件，而不是主题的配置文件。<br>如果还要有人物换装等效果可以参考<a href="https://blog.csdn.net/weixin_33671935/article/details/88218116" target="_blank" rel="noopener">教程</a></p></li><li><p>剩下的未配置的教程（以后有时间再配置）<br><a href="https://blog.csdn.net/weixin_39345384/article/details/80785373" target="_blank" rel="noopener">Hexo框架下用NexT(v7.0+)主题美化博客</a><br><a href="https://www.jianshu.com/p/0fe7dd8a0e8b?winzoom=1" target="_blank" rel="noopener">自建博客系列（六）Hexo博客的常用配置修改</a><br><a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">Hexo博客优化之Next主题美化</a><br><a href="https://blog.csdn.net/u012294515/article/details/83094693" target="_blank" rel="noopener">Hexo | NexT打造一个炫酷博客</a><br><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析</a></p></li></ol>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hexo和Next主题折腾录</title>
+    <url>/2020/01/31/hexo_next/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>&emsp;&emsp;最近两天突发奇想，因为现在瘟疫流行，没有办法出去，所以就找点事做。之前看到了很多人个性化的网站，所以也想自己搭建一个网站。<br>&emsp;&emsp;我不会写具体教程，因为其他人的教程有些写的已经很好了，所以没必要重复，所以讲些关键点和遇到的坑。别看教程很短（因为基本就相当传送门），但是都是试错试出来的，不容易。</p>
+<a id="more"></a>
+<p>注意：文字下面有下划线的就是超链接。<br><strong>坑点</strong>：</p>
+<ol>
+<li>之前我采用的是butterfly主题，按照网上的教程弄了很久的本地搜索还是失败，结果发现网上的教程大都是针对next主题的，因为next主题已经集成了搜索，所以可以简单的配置，但是有些主题需要自己实现。</li>
+</ol>
+<p><strong>具体配置教程</strong>：</p>
+<ol>
+<li><p>hexo + github部署<br>主要参考下面网址的<a href="https://www.jianshu.com/p/189fd945f38f" target="_blank" rel="noopener">教程</a><br>&nbsp;</p>
+</li>
+<li><p>next主题的安装<br>我安装的是最新的next7主题，因为next6之前的主题都已经停止维护了。<br>next7主题的安装，见<a href="https://blog.csdn.net/weixin_39345384/article/details/80785373" target="_blank" rel="noopener">教程</a><br>上面的教程也可以美化主题。<br>&nbsp;</p>
+</li>
+<li><p>主题的美化<br>主要参考<a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">教程</a>,教程讲解的很详细，虽然不是针对next7主题的，但大部分都是适用的。</p>
+</li>
+<li><p>域名的配置<br><a href="https://blog.csdn.net/Wonz5130/article/details/82828761" target="_blank" rel="noopener">参考教程</a></p>
+</li>
+<li><p>leancloud的配置(现在还有些问题)<br><a href="https://lfwen.site/2016/05/31/add-count-for-hexo-next/" target="_blank" rel="noopener">参考教程</a></p>
+</li>
+<li><p>创建About,Tags这些初始页面<br><a href="https://www.jianshu.com/p/60f5c84aa5a8" target="_blank" rel="noopener">参考教程</a></p>
+</li>
+<li><p>添加2D人物<br><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">参考教程</a><br>其中的配置代码放在站点的配置文件，而不是主题的配置文件。<br>如果还要有人物换装等效果可以参考<a href="https://blog.csdn.net/weixin_33671935/article/details/88218116" target="_blank" rel="noopener">教程</a></p>
+</li>
+<li><p>剩下的未配置的教程（以后有时间再配置）<br><a href="https://blog.csdn.net/weixin_39345384/article/details/80785373" target="_blank" rel="noopener">Hexo框架下用NexT(v7.0+)主题美化博客</a><br><a href="https://www.jianshu.com/p/0fe7dd8a0e8b?winzoom=1" target="_blank" rel="noopener">自建博客系列（六）Hexo博客的常用配置修改</a><br><a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">Hexo博客优化之Next主题美化</a><br><a href="https://blog.csdn.net/u012294515/article/details/83094693" target="_blank" rel="noopener">Hexo | NexT打造一个炫酷博客</a><br><a href="https://www.simon96.online/2018/10/12/hexo-tutorial/" target="_blank" rel="noopener">最全Hexo博客搭建+主题优化+插件配置+常用操作+错误分析</a></p>
+</li>
+</ol>
+]]></content>
       <categories>
-          
-          <category> 运维 </category>
-          
+        <category>运维</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 运维，Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/01/29/hello-world/"/>
-      <url>/2020/01/29/hello-world/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>WSL Ubuntu18.04折腾记录-跑通ubuntu多线程c程序</title>
-      <link href="/2020/01/29/test1/"/>
-      <url>/2020/01/29/test1/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>前半部分参考的是：<a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a></p><p>1，以管理员身份打开powershell.执行如下命令，执行完如下命令后，需要重启操作系统。<br>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>2.去微软应用商店下载需要的Linux发行版。</p><a id="more"></a><p>3.下载完成后直接双击安装即可。<br>（4.安装完成后，在开始菜单中即可找到自己安装的Linux发行版。在这里，每一个Linux发行版都是一个windows 应用。）<br>后面就是自己的摸索过程。<br>1，首先是跟换国内源，我选择的是阿里云。<br>参考的是下面这个教程：<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a><br>这个教程里面有几句话比较关键（我最后就是栽了跟头）。</p><blockquote><p>我们可以看到新版本的Ubuntu系统代号为bionic</p></blockquote><p>同样的我们也可以得到之前任意版本的系统代号：</p><p>Ubuntu 12.04 (LTS)代号为precise。</p><p>Ubuntu 14.04 (LTS)代号为trusty。</p><p>Ubuntu 15.04 代号为vivid。</p><p>Ubuntu 15.10 代号为wily。</p><p>Ubuntu 16.04 (LTS)代号为xenial。</p><p>所以这也就解释了为什么我们百度出来的那么多方案里面内容不尽相同的原因，因为他们更改apt安装源时用的系统不一样。<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">原文链接</a></p><p>血泪史：我之前以为与版本无关，所以用的是16.04的清华源，我看到这个教程幡然醒悟。<br>2，然后，安装gcc,g++,gdb.<br>然后要sudo apt-get install build-essential，这个命令，作用是提供编译程序必须软件包的列表信息。<br>3，VS Code里面相应的配置：<a href="https://blog.csdn.net/WChQGouge/article/details/95445857" target="_blank" rel="noopener">参考链接</a><br>然后，在VS Code下载remote wsl,然后打开相应的文件（ubuntu文件夹在windows的位置，可以bing或百度，也可以打开windows下的文件）。<br>然后配置VS Code的wsl的命令窗口，需要更改配置文件。文件如何打开？<br>点下面的“选择默认Shell”，然后就会自动打开。<br><img src="https://img-blog.csdnimg.cn/20200115211850360.png" alt="在这里插入图片描述"><br>这里是配置更改，把原来的cmd.exe直接改为wsl.exe.<br><img src="https://img-blog.csdnimg.cn/20200115211825837.png" alt="在这里插入图片描述"><br>然后再在VS Code的命令窗口输入相应的编译命令，发现sys/msg.h头文件不存在，也就是Unix系统下的头文件，找不到。最后头文件是在里面，但是没有链接。所以要建立来链接。<br>32位系统：/usr/incude/i386-linux-gnu/sys<br>64位系统：/usr/include/x86_64-linux-gnu/sys/</p><p>用法：    ln -s 源文件 目标文件<br>32位系统：sudo ln -s /usr/incude/i386-linux-gnu/sys /usr/include/<br>64位系统：sudo ln -s /usr/include/x86_64-linux-gnu/sys/ /usr/include/<br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">参考链接</a><br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">https://blog.csdn.net/Q1410136042/article/details/84063098</a><br>然后问题就解决了。</p>]]></content>
-      
-      
+      <tags>
+        <tag>运维，Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/01/29/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>WSL Ubuntu18.04折腾记录-跑通ubuntu多线程c程序</title>
+    <url>/2020/01/29/test1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>前半部分参考的是：<a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a></p>
+<p>1，以管理员身份打开powershell.执行如下命令，执行完如下命令后，需要重启操作系统。<br>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux<br>2.去微软应用商店下载需要的Linux发行版。</p>
+<a id="more"></a>
+<p>3.下载完成后直接双击安装即可。<br>（4.安装完成后，在开始菜单中即可找到自己安装的Linux发行版。在这里，每一个Linux发行版都是一个windows 应用。）<br>后面就是自己的摸索过程。<br>1，首先是跟换国内源，我选择的是阿里云。<br>参考的是下面这个教程：<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">https://blog.csdn.net/zhangjiahao14/article/details/80554616</a><br>这个教程里面有几句话比较关键（我最后就是栽了跟头）。</p>
+<blockquote>
+<p>我们可以看到新版本的Ubuntu系统代号为bionic</p>
+</blockquote>
+<p>同样的我们也可以得到之前任意版本的系统代号：</p>
+<p>Ubuntu 12.04 (LTS)代号为precise。</p>
+<p>Ubuntu 14.04 (LTS)代号为trusty。</p>
+<p>Ubuntu 15.04 代号为vivid。</p>
+<p>Ubuntu 15.10 代号为wily。</p>
+<p>Ubuntu 16.04 (LTS)代号为xenial。</p>
+<p>所以这也就解释了为什么我们百度出来的那么多方案里面内容不尽相同的原因，因为他们更改apt安装源时用的系统不一样。<br><a href="https://blog.csdn.net/zhangjiahao14/article/details/80554616" target="_blank" rel="noopener">原文链接</a></p>
+<p>血泪史：我之前以为与版本无关，所以用的是16.04的清华源，我看到这个教程幡然醒悟。<br>2，然后，安装gcc,g++,gdb.<br>然后要sudo apt-get install build-essential，这个命令，作用是提供编译程序必须软件包的列表信息。<br>3，VS Code里面相应的配置：<a href="https://blog.csdn.net/WChQGouge/article/details/95445857" target="_blank" rel="noopener">参考链接</a><br>然后，在VS Code下载remote wsl,然后打开相应的文件（ubuntu文件夹在windows的位置，可以bing或百度，也可以打开windows下的文件）。<br>然后配置VS Code的wsl的命令窗口，需要更改配置文件。文件如何打开？<br>点下面的“选择默认Shell”，然后就会自动打开。<br><img src="https://img-blog.csdnimg.cn/20200115211850360.png" alt="在这里插入图片描述"><br>这里是配置更改，把原来的cmd.exe直接改为wsl.exe.<br><img src="https://img-blog.csdnimg.cn/20200115211825837.png" alt="在这里插入图片描述"><br>然后再在VS Code的命令窗口输入相应的编译命令，发现sys/msg.h头文件不存在，也就是Unix系统下的头文件，找不到。最后头文件是在里面，但是没有链接。所以要建立来链接。<br>32位系统：/usr/incude/i386-linux-gnu/sys<br>64位系统：/usr/include/x86_64-linux-gnu/sys/</p>
+<p>用法：    ln -s 源文件 目标文件<br>32位系统：sudo ln -s /usr/incude/i386-linux-gnu/sys /usr/include/<br>64位系统：sudo ln -s /usr/include/x86_64-linux-gnu/sys/ /usr/include/<br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">参考链接</a><br><a href="https://blog.csdn.net/Q1410136042/article/details/84063098" target="_blank" rel="noopener">https://blog.csdn.net/Q1410136042/article/details/84063098</a><br>然后问题就解决了。</p>
+]]></content>
       <categories>
-          
-          <category> Linux </category>
-          
+        <category>Linux</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
-    
-    
-    <entry>
-      <title>Categories</title>
-      <link href="/Categories/index.html"/>
-      <url>/Categories/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Tags</title>
-      <link href="/Tags/index.html"/>
-      <url>/Tags/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我是一个普通的IT从业者，喜欢自由，探索，自己搭建这个博客是出于兴趣。<br>谢谢。</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tag</title>
-      <link href="/tag/index.html"/>
-      <url>/tag/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-  
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Categories</title>
+    <url>/Categories/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>Tags</title>
+    <url>/Tags/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
+  <entry>
+    <title>about</title>
+    <url>/about/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我是一个普通的IT从业者，喜欢自由，探索，自己搭建这个博客是出于兴趣。<br>谢谢。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>tag</title>
+    <url>/tag/index.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+  </entry>
 </search>
