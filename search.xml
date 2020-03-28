@@ -15,10 +15,10 @@ setting.json文件：<figure class="highlight json"><table><tr><td class="code">
 <p>2.另外自己配置好了之后一直报-environment -cd 文件路径不存在的错误，结果是中文路径的问题。<br>3. 解决VS Code运行框一闪而过，在return 0 之前加上 system(‘pause’);<br>4. 我也试了使用GDB调试，但是调试效率低，不如图形界面来的方便。</p>
 ]]></content>
       <categories>
-        <category>配置教程</category>
+        <category>Configuration</category>
       </categories>
       <tags>
-        <tag>配置教程</tag>
+        <tag>Configuration</tag>
       </tags>
   </entry>
   <entry>
